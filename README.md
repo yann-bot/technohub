@@ -1,4 +1,4 @@
-![archi](https://github.com/user-attachments/assets/dfcb6d37-4b63-41ca-abac-a11068c5fce0)# Technohub 
+
 ## 1.Analyse des besoins
 ### 1.1. Contexte du projet
 Technohub est une plateforme à répondre aux besoins d'expertise  technique de la population. Au quotidien, il fréquent de faire appel à un électricien, frigoriste, réparateur d'électronique etc.Cependant, la difficulté à laquelle on se heurte est premièrement celle de vite trouver un technicien. Ensuite vient le problème de la compétence , de l'honnêteté et du sérieux. Comment trouver  facilement un technicien qualifié  et de bonne moralité ? Technohub est la  solution.
@@ -83,7 +83,8 @@ Voici la liste de tout ce qu'il peut faire:
 - **Emails** : SendGrid / Mailgun / SMTP
 - **Notifications push** : Firebase Cloud Messaging (FCM), OneSignal
 - **Stockage de fichiers** : Cloudinary ou AWS S3
-
+### 3.3. Schéma de l'architecture
+![archi](https://github.com/user-attachments/assets/dfcb6d37-4b63-41ca-abac-a11068c5fce0)# Technohub 
 
 
 
