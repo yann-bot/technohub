@@ -43,6 +43,7 @@ Voici la liste de tout ce qu'il peut faire:
 ### 2.2.3. Administrateur
 - Surveille les profils des techniciens;
 - Verifie les plaintes;
+- Supprimer un compte 
 
 ## 3. Cahier de charges technique
 
@@ -85,6 +86,11 @@ Voici la liste de tout ce qu'il peut faire:
 - **Stockage de fichiers** : Cloudinary ou AWS S3
 ### 3.3. Schéma de l'architecture
 ![archi](https://github.com/user-attachments/assets/dfcb6d37-4b63-41ca-abac-a11068c5fce0)# Technohub 
+
+## 4. Modélisation UML
+
+### 4.1. Diagramme de cas d'utilisation
+
 
 
 
