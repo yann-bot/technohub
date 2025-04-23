@@ -49,33 +49,23 @@ Un utilisateur est toute personne inscrite sur la plateforme, qu’elle vienne c
 Un administrateur est un utilisateur disposant de droits étendus pour gérer la plateforme et garantir la qualité des services.
 **Actions et responsabilités:** 
 - Gestion des utilisateurs :
-
     - Valider ou refuser les inscriptions et profils techniques (modération) ;
-
     - Désactiver ou réactiver des comptes utilisateurs (visiteurs, clients, techniciens) ;
 
 - Gestion des annonces :
-
-- Consulter et modérer les annonces publiées ;
-
+    - Consulter et modérer les annonces publiées ;
     - Supprimer ou archiver les annonces non conformes ;
 
 - Configuration du site :
-
     - Paramétrer les catégories et spécialités techniques ;
-
     - Définir les critères de modération (mots-clés interdits, normes de qualité) ;
 
 - Suivi et reporting :
-
     - Consulter les statistiques globales (nombre d’utilisateurs, annonces publiées, taux de conversion) ;
-
     - Générer des rapports d’activité (mensuels, trimestriels) ;
-
+    - 
 - Support et assistance :
-
     - Gérer les tickets de support utilisateurs ;
-
     - Communiquer des mises à jour ou annonces importantes aux utilisateurs.
 
 ## 3. Cahier de charges technique
@@ -118,7 +108,7 @@ Un administrateur est un utilisateur disposant de droits étendus pour gérer la
 - **Notifications push** : Firebase Cloud Messaging (FCM), OneSignal
 - **Stockage de fichiers** : Cloudinary ou AWS S3
 ### 3.3. Schéma de l'architecture
-![archi](https://github.com/user-attachments/assets/dfcb6d37-4b63-41ca-abac-a11068c5fce0)# Technohub 
+
 
 ## 4. Modélisation UML
 
