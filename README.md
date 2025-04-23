@@ -60,7 +60,7 @@ Un administrateur est un utilisateur disposant de droits étendus pour gérer la
 
     - Supprimer ou archiver les annonces non conformes ;
 
--Configuration du site :
+- Configuration du site :
 
     - Paramétrer les catégories et spécialités techniques ;
 
