@@ -2,8 +2,10 @@
 
 
 
-export dafault function BestRating() {
+export default function BestRating() {
     return(
+          <div>
 
+          </div>
     )
 }
