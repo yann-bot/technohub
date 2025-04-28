@@ -18,11 +18,11 @@ const service = [
 
 export default  function Header() {
     return(
-        <header className={ clsx( '  md:flex md:flex-col md:gap-10 md:overflow-hidden p-5 bg-orange-50 rounded-b-[70px] border-b border-gray-400')  }>
+        <header className={ clsx( '  md:flex md:flex-col md:gap-10 md:overflow-hidden p-5 bg-orange-50 rounded-b-[50px] border-b border-gray-400')  }>
            <ScrollNav />
             <nav className={ clsx( 'md:flex md:w-full   justify-between')}>
             <Link href='#'  ><div className={clsx(' font-bold font-sans md:text-2xl text-orange-500 font-bold')}> NzoniZo </div></Link>
-                <ul className={clsx('md:flex  md:gap-3 md:self-end')}>
+                <ul className={clsx('md:flex  md:gap-3 ')}>
                     <li> <Link href='#' className={clsx("md:text-xl font-serif  border border-gray-200 p-3", "hover:bg-orange-500 hover:text-white")}>Devenir Pro</Link> </li>
                     <li> <Link href='#' className={clsx("md:text-xl font-serif  border border-gray-200 p-3","hover:bg-orange-500 hover:text-white")}>Se connecter</Link> </li>
                 </ul>

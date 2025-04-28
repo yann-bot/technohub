@@ -9,18 +9,18 @@ export default function Home() {
 
 
    return(
-       <div className={clsx("")}>
+       <div className={clsx("flex flex-col ")}>
              <Header />
-             <main className='border border-red-500 mt-1 hidden'>
-                 <section>
+             <main className=' mt-1 h-[700px] flex flex-col'>
+                 <section className={clsx('flex flex-col items-center h-100')}>
                     {/* Liste des techniciens afficher de façon aléatoire  */}
-                     <h2>Techniciens qualifiés à votre écoute</h2>
+                     <h2 className={clsx("font-serif tracking-wide text-3xl mt-5")}>Techniciens qualifiés à votre écoute</h2>
                  </section>
-                 <section>
-                     <div>Comment ça marche</div>
+                 <section className={clsx('flex flex-col items-center h-100')}>
+                     <h2 className={clsx("font-serif tracking-wide text-3xl mt-5")}>Comment ça marche ?</h2>
                  </section>
-                 <section>
-                     {/* Devenir technicien */}
+                 <section className={clsx('flex flex-col items-center h-100')}>
+                     <h2 className={clsx("font-serif tracking-wide text-3xl mt-5")}>Devenez Technicien ?</h2>
                  </section>
              </main>
              <Footer />
