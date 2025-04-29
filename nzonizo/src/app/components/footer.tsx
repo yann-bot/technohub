@@ -30,7 +30,7 @@ export default function Footer() {
                 <section className={clsx('md:flex md:flex-col gap-5' )}>
                     <h1 className={clsx("text-2xl font-sans tracking-widest")}>Assistance</h1>
                     <ul className={clsx('md:flex md:flex-col gap-2 text-sm font-serif tracking-widest')}>
-                        <li><Link href="#">Centre d'aide</Link></li>
+                        <li><Link href="#">Centre aide</Link></li>
                         <li><Link href="#">Contact</Link></li>
                     </ul>
                 </section>
