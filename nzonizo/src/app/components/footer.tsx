@@ -6,7 +6,7 @@ import clsx from "clsx";
 
 export default function Footer() {
     return(
-        <footer className='border flex flex-col bg-black text-white  p-5 gap-4 '>
+        <footer className={clsx('border flex flex-col bg-black text-white  p-5 gap-4 ')}>
             <div className={clsx("flex justify-between ")}>
                 <section className={clsx('md:flex md:flex-col gap-5' )}>
                     <h1 className={clsx("text-2xl font-sans tracking-widest")}>A propos</h1>
@@ -34,7 +34,6 @@ export default function Footer() {
                         <li><Link href="#">Contact</Link></li>
                     </ul>
                 </section>
-
                 <section className={clsx('md:flex md:flex-col gap-5' )}>
                     <h1 className={clsx("text-2xl font-sans tracking-widest")} >Suivez-nous</h1>
                     <ul className={clsx('md:flex  gap-3 text-xl font-serif tracking-widest')}>
@@ -45,9 +44,8 @@ export default function Footer() {
                 </section>
             </div>
             <div className={clsx(' border-white border-t-1  font-serif text-sm tracking-wider pt-2 ')}>
-                © 2025,NzoniZo
+                © 2025,NzoniZo. Tout droit réservé
             </div>
-
         </footer>
     )
 }
