@@ -1,23 +1,10 @@
-// ListeServices.tsx
-import { FaTools, FaBolt, FaWater, FaLaptop, FaWrench, FaTruckMoving, FaPaintRoller, FaFan, FaSolarPanel, FaPlug } from "react-icons/fa";
+
 import { useRef } from "react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5"; // Icônes pour les flèches
 import clsx from "clsx";
+import Service from "@/data/service";
+const services = Service;
 
-const services = [
-    { nom: "Électricien", icone: <FaBolt /> },
-    { nom: "Plombier", icone: <FaWater /> },
-    { nom: "Réparation PC", icone: <FaLaptop /> },
-    { nom: "Maintenance", icone: <FaTools /> },
-    { nom: "Mécanique Auto", icone: <FaWrench /> },
-    { nom: "Déménagement", icone: <FaTruckMoving /> },
-    { nom: "Peinture", icone: <FaPaintRoller /> },
-    { nom: "Climatisation", icone: <FaFan /> },
-    { nom: "Solaire", icone: <FaSolarPanel /> },
-    { nom: "Installation Électrique", icone: <FaPlug /> },
-    { nom: "Électricien", icone: <FaBolt /> },
-    { nom: "Plombier", icone: <FaWater /> },
-];
 
 export default function ListeServices() {
     const carouselRef = useRef<HTMLDivElement>(null);

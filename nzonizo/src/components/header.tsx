@@ -1,18 +1,15 @@
 "use client"
 
-
 import ScrollNav from "./scrollNav";
 import clsx from "clsx";
 import Services from './listeService'
 import Link from 'next/link';
 import {useState} from "react";
 import Connexion from "./connexion";
+import Service from "@/data/service";
 
-const service = [
-    "Electricien",
-    "Plombier",
-    "Réparateur PC"
-]
+const service = Service;
+
 
 
 
@@ -49,14 +46,14 @@ export default  function Header() {
                         <select className={clsx("w-1/2 border border-gray-400 border-r-0")}>
                             {
                                 service.map((service,  index)=>(
-                                    <option key={index} value={service}>{service}</option>
+                                    <option key={index} value={service.nom}>{service.nom}</option>
                                     )
                                 )
                             }
                         </select>
-                        <input type='search' value="Ville ou quartier" className={clsx('md:border  border-gray-400 text-gray-500 flex w-1/2  pl-2   ')} />
+                      <input type='search' placeholder="Ville ou quartier" className={clsx('md:border  border-gray-400 text-gray-500 flex w-1/2  pl-2   ')} />
                     </form>
-                    <button className={clsx("border p-2 bg-orange-500 text-white", "hover:bg-orange-700")}> Rechercher </button>
+                    <Link href="/Recherche" ><button className={clsx("border p-2 bg-orange-500 text-white", "hover:bg-orange-700")}> Rechercher </button></Link >
                 </div>
                 <div className={clsx(" rounded-2xl w-2/3 mt-10 ")}>
                     <Services />

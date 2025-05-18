@@ -1,11 +1,10 @@
 
 import clsx from "clsx";
-import  Header from './components/header'
-import  Footer from './components/footer'
-import TechGrille from "./components/techGrille";
-import Avis from "./components/avisclient"
-import  connexion  from "./components/connexion";
-import Commentmarche from "./components/commentçamarche";
+import  Header from '@/components/header'
+import  Footer from '@/components/footer'
+import TechGrille from "@/components/techGrille";
+import Avis from "@/components/avisclient"
+import Commentmarche from "@/components/commentçamarche";
 
 
 export default function Home() {

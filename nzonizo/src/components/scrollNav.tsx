@@ -24,7 +24,7 @@ export default  function ScrollNav() {
                 <div className={clsx(" font-sans md:text-2xl text-orange-500 font-bold")}> NzoniZo </div>
                 <div>
                     <form>
-                        <input type='search' value='Rechercher un technicien' className={clsx("border border-gray-500 p-2 pl-10 pr-10 rounded-[100px]")}/>
+                        <input type='search' placeholder='Rechercher un technicien' className={clsx("border border-gray-500 p-2 pl-10 pr-10 rounded-[100px]")}/>
                     </form>
                 </div>
                 <ul className={clsx('md:flex  md:gap-3 ')}>
