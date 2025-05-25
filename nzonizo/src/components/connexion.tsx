@@ -16,7 +16,7 @@ export default function Connexion({ setShow }: ConnexionProps) {
                 </button>
             </div>
 
-            <form className="flex flex-col w-100 gap-6 m-15 mt-20 mb-20">
+            <form className="flex flex-col w-100 gap-3 m-15 mt-20 mb-20">
                 <h2 className="text-xl font-bold mb-4 self-center">Connectez-vous</h2>
                 <section className="flex flex-col gap-2">
                     <input

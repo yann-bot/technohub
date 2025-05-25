@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Card from "./technoCard";
-import Technicien from "@/data/technicien";
+import Technicien from "@/data/techniciensVedette";
 
 
 const technicien = Technicien;
@@ -19,6 +19,9 @@ export default function TechGrille() {
                            adresse={technicien.adresse}
                            specialite={technicien.specialite}
                            photo={technicien.photo}
+                           sousSpecialite={technicien.sousSpecialites}
+                           note={technicien.note}
+                           localisation={technicien.localisation}
                     />
                 ))
                 }

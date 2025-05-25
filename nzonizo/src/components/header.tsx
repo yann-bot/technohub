@@ -1,5 +1,6 @@
 "use client"
 
+
 import ScrollNav from "./scrollNav";
 import clsx from "clsx";
 import Services from './listeService'
@@ -11,12 +12,8 @@ import Service from "@/data/service";
 const service = Service;
 
 
-
-
-
 export default  function Header() {
     const [show, setShow] = useState(false);
-
     return(
         <header className={ clsx( '  md:flex md:flex-col md:gap-10 md:overflow-hidden p-5 bg-orange-50 rounded-b-[50px] border-b border-gray-400')  }>
            <ScrollNav />
@@ -32,7 +29,7 @@ export default  function Header() {
             <nav className={ clsx( 'md:flex md:w-full   justify-between')}>
             <Link href='#'  ><div className={clsx('  font-sans md:text-2xl text-orange-500 font-bold')}> NzoniZo </div></Link>
                 <ul className={clsx('md:flex  md:gap-3 ')}>
-                    <li> <Link href='#' className={clsx("md:text-xl font-serif  border border-gray-200 p-3", "hover:bg-orange-500 hover:text-white")}>Devenir Pro</Link> </li>
+                    <li> <Link href='/DevenirTechnicien' className={clsx("md:text-xl font-serif  border border-gray-200 p-3", "hover:bg-orange-500 hover:text-white")}>Devenir Pro</Link> </li>
                     <li> <a href='#' onClick={() => setShow(true)} className={clsx("md:text-xl font-serif  border border-gray-200 p-3","hover:bg-orange-500 hover:text-white")}>Se connecter</a> </li>
                 </ul>
             </nav>
