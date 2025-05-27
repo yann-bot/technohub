@@ -74,7 +74,7 @@ export default function RecherchePage() {
                     }
                 </div>
 
-                {/* Boutons navigation */}
+          œ      {/* Boutons navigation */}
                 <div className="flex justify-between mt-4">
                     <button
                         onClick={() => setPage(page - 1)}

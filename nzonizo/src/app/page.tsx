@@ -9,7 +9,7 @@ import Commentmarche from "@/components/commentçamarche";
 
 export default function Home() {
    return(
-       <div className={clsx("flex flex-col gap-10  ")}>
+       <div className={clsx("flex flex-col gap-10 ")}>
              <Header/>
              <main className={clsx('mt-1 flex flex-col gap-10')}>
                  <section className={clsx(' items-center ')}>
