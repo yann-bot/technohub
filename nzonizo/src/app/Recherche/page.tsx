@@ -34,23 +34,22 @@ export default function RecherchePage() {
 
 
     return (
-        <div className=" mt-25 flex flex-col m-10 gap-5   ">
-              <h1 className="text-4xl mt-10 font-mono   font-bold">Des Techniciens à proximité</h1>
-
+        <div className=" mt-25 flex flex-col m-10 gap-5  font-serif   ">
+            <h1 className="text-4xl mt-10 mb-10 font-mono   font-bold">Des Techniciens à proximité</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                <select onChange={e => setFiltres({ ...filtres, sousSpecialite: e.target.value })}>
+                <select  className="border" onChange={e => setFiltres({ ...filtres, sousSpecialite: e.target.value })}>
                     <option value="">Toutes les sous-spécialités</option>
                     <option value="Smartphone">Smartphone</option>
                     <option value="TV">TV</option>
                 </select>
 
-                <select onChange={e => setFiltres({ ...filtres, localisation: e.target.value })}>
+                <select className="border" onChange={e => setFiltres({ ...filtres, localisation: e.target.value })}>
                     <option value="">Toutes les localisations</option>
                     <option value="Bangui">Bangui</option>
                     <option value="Berbérati">Berbérati</option>
                 </select>
 
-                <select onChange={e => setFiltres({ ...filtres, note: Number(e.target.value) })}>
+                <select className="border" onChange={e => setFiltres({ ...filtres, note: Number(e.target.value) })}>
                     <option value={0}>Toutes les notes</option>
                     <option value={4}>4+ étoiles</option>
                     <option value={3}>3+ étoiles</option>
@@ -61,8 +60,9 @@ export default function RecherchePage() {
                 <div className={clsx("grid  grid-cols-3 mt-5 gap-10 ")}>
                     {techniciensAffiches.map((technicien, index) => (
                         <Card  key={index}
+                               id = {technicien.id}
                                nomComplet={technicien.nomComplet}
-                               avis={34}
+                               avis={technicien.avis}
                                adresse={technicien.adresse}
                                specialite={technicien.specialite}
                                photo={technicien.photo}
@@ -74,7 +74,7 @@ export default function RecherchePage() {
                     }
                 </div>
 
-          œ      {/* Boutons navigation */}
+                {/* Boutons navigation */}
                 <div className="flex justify-between mt-4">
                     <button
                         onClick={() => setPage(page - 1)}

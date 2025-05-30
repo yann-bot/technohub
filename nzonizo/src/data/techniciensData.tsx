@@ -4,11 +4,13 @@
 
 
 const techniciensData = [
+
     {
+        id:1,
         nomComplet: "Yann Ouafete",
         adresse: "221B Baker Street",
         specialite: "Detectif",
-        photo: "/yann.png",
+        photo: "/img/yann2.jpg",
         avis: 57,
         note:5,
         localisation: "Bangui",
@@ -16,18 +18,20 @@ const techniciensData = [
 
     },
     {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Detectif",
-        photo: "/yann.png",
+        id:2,
+        nomComplet: "Ojevie Manap",
+        adresse: "Gombongo",
+        specialite: "Promblier",
+        photo: "/img/pexels-kindelmedia-8488024.jpg",
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
+        sousSpecialites: ["Tuyauterie", "Installation"]
     },
     {
-        nomComplet:"Jean Technicien",
-        photo:"/yann.png",
+        id:3,
+        nomComplet:"Tony Lee",
+        photo:"/img/pexels-mikhail-nilov-9242267.jpg",
         adresse:"PK5, Avenue des Martyrs",
         specialite:"Réparateur électronique",
         sousSpecialites:["Smartphone", "TV", "Radio"],
@@ -36,102 +40,38 @@ const techniciensData = [
         note:4.8
     },
     {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Detectif",
-        photo: "/yann.png",
+        id:4,
+        nomComplet: "Yannick Yerima",
+        adresse: "36 Villas",
+        specialite: "Menuisier",
+        photo: "/img/pexels-illustrate-digital-ug-924569584-20853365.jpg",
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
+        sousSpecialites: ["Meuble", "Plafond"]
     },
     {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Detective",
-        photo: "/yann2.jpg",
+        id:5,
+        nomComplet: "Youssouf Idriss",
+        adresse: "Avenue Idriss Deby Km5",
+        specialite: "Mécanicien",
+        photo: "/img/pexels-aliyu-jooney-2151008543-31928799.jpg",
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
+        sousSpecialites: ["4x4", 'Automatique']
     },
 
     {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
-        avis: 57,
-        note:2,
+        id:6,
+        nomComplet: "Excel Redemona",
+        photo: "/img/istockphoto-2211243775-612x612.jpg",
+        specialite: "Mecanicienne",
+        sousSpecialites: ["Poids lourd", "4x4"],
         localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
-    },
-    {
-        nomComplet: "Yann Ouafete",
         adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
         avis: 57,
-        note:2,
-        localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
-    },
-    {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
-        avis: 57,
-        note:2,
-        localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
-    },
-    {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
-        avis: 57,
-        note:2,
-        localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
-    },
-    {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
-        avis: 57,
-        note:2,
-        localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
-    },
-    {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
-        avis: 57,
-        note:2,
-        localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
-    },
-    {
-        nomComplet: "Yann Ouafete",
-        adresse: "221B Baker Street",
-        specialite: "Electricien",
-        photo: "/yann.png",
-        text: "J'aime resoudre les problèmes",
-        avis: 57,
-        note:2,
-        localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
+        note:5,
     },
 
 
