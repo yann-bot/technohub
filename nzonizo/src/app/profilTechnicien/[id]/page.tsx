@@ -4,16 +4,22 @@ import { notFound } from 'next/navigation';
 import NavSimple from '@/components/navSimple'
 import { GoArrowLeft } from "react-icons/go";
 import Image from "next/image";
-type Props = {
-    params: {id: string};
+
+interface Props  {
+    params:{
+        id: string
+    };
 
 }
 
-export default  function profilTechnicien({params}: Props) {
+export default  async function profilTechnicien(props: Props) {
+    const params = await props.params
+    const id = parseInt(params.id);
+    if(isNaN(id)) return notFound();
 
-   const technicien = techniciens.find((technicien) => technicien.id === parseInt(params.id) );
+    const technicien = techniciens.find((technicien) => technicien.id === id );
+    if (!technicien) return notFound();
 
-    if(!technicien) return notFound();
 
     return (
         <div className="">
@@ -24,10 +30,10 @@ export default  function profilTechnicien({params}: Props) {
                     <div className="w-2/3 h-screen flex flex-col gap-5 ">
                           <div className=" flex flex-col relative bg-white border border-gray-300 shadow-xl rounded-2xl w-full h-80">
                                 <div className="bg-orange-500 rounded-t-2xl w-full h-25"></div>
-                                <div className="rounded-full w-30 h-30 absolute left-10 z-20 top-10">
+                                <div className=" rounded-full w-30 h-30 absolute left-10 z-20 top-10">
 
                                         <Image
-                                            src={technicien.photo} // change ça par ton image
+                                            src={technicien.photo}
                                             alt={technicien.nomComplet}
                                             fill
                                             className="rounded-full"
