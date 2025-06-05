@@ -47,12 +47,10 @@ export default function Card({ nomComplet, adresse, specialite,  avis, photo , n
                     ))}
                 </div>
                 <div className="flex text-yellow-300 items-center gap-1">
-
                     <div className={clsx("flex items-center")}>
                         <span className="text-black ">{note}  ⭐ </span>
                         <span className="text-black text-sm ml-2">({avis} avis)</span>
                     </div>
-
                 </div>
                 <div className="text-sm text-gray-700  flex  gap-2">
                     <button className="p-2 pl-6 pr-6  border hover:bg-orange-100  hover:text-black border-orange-500 text-orange-500 rounded-sm  ">Contacter</button>

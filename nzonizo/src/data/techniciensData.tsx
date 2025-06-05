@@ -14,7 +14,15 @@ const techniciensData = [
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["Crime", "Enquete"]
+        sousSpecialites: ["Crime", "Enquete"],
+        bio: "Lorem ipsum dolor sit amet, " +
+            "consectetur adipiscing elit. Curabitur vel semper nulla. Pellentesque " +
+            "habitant morbi tristique senectus et netus et malesuada fames" +
+            " ac turpis egestas. Vestibulum non metus nec justo fermentum dictum." +
+            " Phasellus auctor, lorem a faucibus tincidunt, erat elit scelerisque " +
+            "lorem, at blandit metus magna et augue. Integer non malesuada libero." +
+            " Fusce dictum, nulla nec egestas facilisis, libero massa congue magna, sed efficitur purus metus non nisl. Nullam vitae ex sit amet nulla " +
+            "luctus sollicitudin.",
 
     },
     {
@@ -26,7 +34,15 @@ const techniciensData = [
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["Tuyauterie", "Installation"]
+        sousSpecialites: ["Tuyauterie", "Installation"],
+        bio: "Lorem ipsum dolor sit amet, " +
+            "consectetur adipiscing elit. Curabitur vel semper nulla. Pellentesque " +
+            "habitant morbi tristique senectus et netus et malesuada fames" +
+            " ac turpis egestas. Vestibulum non metus nec justo fermentum dictum." +
+            " Phasellus auctor, lorem a faucibus tincidunt, erat elit scelerisque " +
+            "lorem, at blandit metus magna et augue. Integer non malesuada libero." +
+            " Fusce dictum, nulla nec egestas facilisis, libero massa congue magna, sed efficitur purus metus non nisl. Nullam vitae ex sit amet nulla " +
+            "luctus sollicitudin.",
     },
     {
         id:3,
@@ -37,7 +53,15 @@ const techniciensData = [
         sousSpecialites:["Smartphone", "TV", "Radio"],
         avis:27,
         localisation:"Bangui",
-        note:4.8
+        note:4.8,
+        bio: "Lorem ipsum dolor sit amet, " +
+            "consectetur adipiscing elit. Curabitur vel semper nulla. Pellentesque " +
+            "habitant morbi tristique senectus et netus et malesuada fames" +
+            " ac turpis egestas. Vestibulum non metus nec justo fermentum dictum." +
+            " Phasellus auctor, lorem a faucibus tincidunt, erat elit scelerisque " +
+            "lorem, at blandit metus magna et augue. Integer non malesuada libero." +
+            " Fusce dictum, nulla nec egestas facilisis, libero massa congue magna, sed efficitur purus metus non nisl. Nullam vitae ex sit amet nulla " +
+            "luctus sollicitudin.",
     },
     {
         id:4,
@@ -48,7 +72,15 @@ const techniciensData = [
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["Meuble", "Plafond"]
+        sousSpecialites: ["Meuble", "Plafond"],
+        bio: "Lorem ipsum dolor sit amet, " +
+            "consectetur adipiscing elit. Curabitur vel semper nulla. Pellentesque " +
+            "habitant morbi tristique senectus et netus et malesuada fames" +
+            " ac turpis egestas. Vestibulum non metus nec justo fermentum dictum." +
+            " Phasellus auctor, lorem a faucibus tincidunt, erat elit scelerisque " +
+            "lorem, at blandit metus magna et augue. Integer non malesuada libero." +
+            " Fusce dictum, nulla nec egestas facilisis, libero massa congue magna, sed efficitur purus metus non nisl. Nullam vitae ex sit amet nulla " +
+            "luctus sollicitudin.",
     },
     {
         id:5,
@@ -59,7 +91,15 @@ const techniciensData = [
         avis: 57,
         note:5,
         localisation: "Bangui",
-        sousSpecialites: ["4x4", 'Automatique']
+        sousSpecialites: ["4x4", 'Automatique'],
+        bio: "Lorem ipsum dolor sit amet, " +
+            "consectetur adipiscing elit. Curabitur vel semper nulla. Pellentesque " +
+            "habitant morbi tristique senectus et netus et malesuada fames" +
+            " ac turpis egestas. Vestibulum non metus nec justo fermentum dictum." +
+            " Phasellus auctor, lorem a faucibus tincidunt, erat elit scelerisque " +
+            "lorem, at blandit metus magna et augue. Integer non malesuada libero." +
+            " Fusce dictum, nulla nec egestas facilisis, libero massa congue magna, sed efficitur purus metus non nisl. Nullam vitae ex sit amet nulla " +
+            "luctus sollicitudin.",
     },
 
     {
@@ -72,6 +112,14 @@ const techniciensData = [
         adresse: "221B Baker Street",
         avis: 57,
         note:5,
+        bio: "Lorem ipsum dolor sit amet, " +
+            "consectetur adipiscing elit. Curabitur vel semper nulla. Pellentesque " +
+            "habitant morbi tristique senectus et netus et malesuada fames" +
+            " ac turpis egestas. Vestibulum non metus nec justo fermentum dictum." +
+            " Phasellus auctor, lorem a faucibus tincidunt, erat elit scelerisque " +
+            "lorem, at blandit metus magna et augue. Integer non malesuada libero." +
+            " Fusce dictum, nulla nec egestas facilisis, libero massa congue magna, sed efficitur purus metus non nisl. Nullam vitae ex sit amet nulla " +
+            "luctus sollicitudin.",
     },
 
 
